@@ -1,0 +1,21 @@
+/*------ Header styles ----------*/
+h1 {
+  color:black;
+}
+
+/* List styles */
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 145px;
+}
+
+/* anchors and links */
+a {
+  font-size: 45px;
+}

@@ -1,0 +1,41 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div class="form">
+<form method="post" action="contactengine.php">
+<label for="Name">Name:</label>
+<input type="text" name="Name" id="Name" placeholder="First Last">
+<br/>
+<label for="Email" >Email:</label>
+<input type="email" name="Email" id="Email" placeholder="youremail@email.com" required>
+<br/>
+<label for="Tel">Tel:</label>
+<input type="tel" name="Tel" id="Tel" placeholder="000-000-0000">
+<br/>
+<label for="Url">Website:</label>
+<input type="url" name="Url" id="Url" placeholder="http://yourwebsite.com/%22%3E
+<br/>
+<!--radiobuttons-->
+<label>website</label>
+<input type="radio" name="Project" value="web" id="Project_0">
+<br/>
+<label>print</label>
+<input type="radio" name="Project" value="print" id="Project_1">
+<br/>
+<label>etc</label>
+<input type="radio" name="Project" value="etc" id="Project_2">
+<br/>
+<label for="Message">Text Area:</label>
+<textarea name="Message" id="Message" rows="4" cols="28"></textarea>
+<br/>
+<div class="center">
+<input type="submit" name="Submit" id="Submit" value="Submit">
+</form>
+</div>
+</body>
+</html>

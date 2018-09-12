@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+.form {
+    width: 30%;
+    margin: 0 auto;
+    background-color: #A5C6D1;
+    border: thin solid #A5C6D1;
+    padding: 20px;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-size: 0.8em;
+}
+
+label {float:left; text-align:right; width:20%; margin-right:5%;}
+
+input,textarea
+{
+margin-bottom:1em;
+padding:0.5em 0.8em; 
+border:thin solid #ccc; 
+
+border-radius:4px;
+}
+
+
+input:focus, textarea:focus {
+    outline: 0;
+    border-color: #96C0DD;
+} 
+
+
+input[type="submit"]
+{
+    background-color: #579CB5;
+    border: thin solid #ccc;
+    padding: 0.8em;
+    outline: 0;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+}
+:-moz-placeholder {color:#ead8dd;}
+::-webkit-input-placeholder {color:#ead8dd;}
+input[type="submit"]:hover,input[type="submit"]:focus {background-color:#579CB5;}
+ .center{width:30%;margin:0 auto;margin-top:30px;}
