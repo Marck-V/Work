@@ -1,0 +1,40 @@
+@charset "UTF-8";
+main {
+	width: 960px;
+	margin: 0px auto;
+	background-color:aliceblue
+	
+}
+
+.fullcard {
+	width: 49%;
+}
+
+.fullcard first-child {
+	float:left;
+	
+}
+
+.fullcard last-child {
+	float:right;
+}
+
+.fullcard img {
+	width: 50%
+}
+
+.pics {
+ width:50%	
+}
+
+.pics first-child {
+	float:left 
+}
+
+.pics last-child {
+	margin-left: 50px;
+	float:right;
+ 
+}
+
+
