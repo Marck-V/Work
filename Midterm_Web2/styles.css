@@ -8,7 +8,7 @@ header {
 }
 /*nav starts*/
 ul {list-style-type:none;padding-left:0;width:667px;margin:0 auto;}
-li a {padding:5px;display:block;width:150px;text-align:center;float:left;margin:3px;}
+li a {padding:5px;display:block;width:150px;text-align:center;float:left;margin:3px;margin-left:110px;}
 /* unvisited link */
 a:link {
 	color: #000000;
@@ -28,6 +28,6 @@ a:active {
 } 
 
 
-
-#pic1 {height:346px; width:229px;float:left;}
+.cat1 {float:left;}
+.cat2 {float:right;}
 #text {margin-top:50px}
