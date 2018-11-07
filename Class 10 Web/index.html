@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Page Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+
+  <style>
+    #message {
+      color: blueviolet;
+    }
+  </style>
+</head>
+<body>
+  <h1 id="docHeader"><img src="IMG_0084.JPG" alt="photo"/></h1>
+  
+  <div class="button-container">
+    <button onclick="showHeader()" id="showButton">Show Image</button>
+    <button onclick="hideHeader()" id="hideButton">Hide Image</button>
+	<button onclick="changeMyText()">Change Text</button>
+    <button onclick="changeMyColor()">Change Color</button>
+  </div>
+<h1 id="text">Goodbye, Sky!</h1>
+
+  <p id="message"></p>
+
+  <script>
+    var header = document.getElementById("docHeader");
+
+    function showHeader(){
+      document.getElementById("message").innerText = "";
+      document.getElementById("hideButton").removeAttribute("disabled");
+
+      if(header.style.visibility === "visible"){
+        document.getElementById("showButton").setAttribute("disabled", "disabled");
+        document.getElementById("message").innerText = "The image is already shown!";
+      }
+      header.style.visibility = "visible";
+    }
+
+    function hideHeader(){
+      document.getElementById("message").innerText = "";
+      document.getElementById("showButton").removeAttribute("disabled");
+
+      if(header.style.visibility === "hidden"){
+        document.getElementById("hideButton").setAttribute("disabled", "disabled");
+        document.getElementById("message").innerText = "The image is already hidden!";
+      }
+      header.style.visibility = "hidden";
+    }
+	  var changeMyText = function(){
+      // this is my header text
+      var myText = "Hello, World!";
+      docHeader.innerHTML = myText;
+
+
+  </script>
+</body>
+</html>
